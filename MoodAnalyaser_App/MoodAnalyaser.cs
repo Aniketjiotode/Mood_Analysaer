@@ -7,6 +7,7 @@ namespace MoodAnalyaser_App
     public class MoodAnalyaser
     {
         private string message;
+
         public MoodAnalyaser(string message)
         {
             this.message = message;
@@ -21,8 +22,7 @@ namespace MoodAnalyaser_App
             else
             {
                 return "HAPPY";
-            }
-              
+            }            
         }
 
     }

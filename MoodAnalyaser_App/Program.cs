@@ -6,7 +6,7 @@ namespace MoodAnalyaser_App
     {
         static void Main(string[] args)
         {
-            MoodAnalyaser analyse = new MoodAnalyaser("I am in any mood");
+            MoodAnalyaser analyse = new MoodAnalyaser("I am in Sad mood");
             Console.WriteLine( analyse.AnalyseMood());
         }
     }

@@ -10,12 +10,14 @@ namespace TestProject1
         private MoodAnalyaser analyaser;
 
         [SetUp]
+
         public void Setup()
         {
              analyaser = new MoodAnalyaser("I am in Sad mood"));
         }
 
         [Test] 
+
         public void SadMessageReturnSAD()
         {
             string expecxted = "SAD";
@@ -26,6 +28,7 @@ namespace TestProject1
         }
 
         [Test]
+
         public void AnyMessageReturnHaapy()
         {
             string expecxted = "HAPPY";
